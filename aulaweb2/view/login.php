@@ -1,7 +1,5 @@
 <?php
 include '../Util.php';
-Util::verificar();
-session_start();
 
 if(!empty($_POST)){
     Util::logar($_POST);
@@ -24,7 +22,7 @@ if(!empty($_POST)){
 			<input type="text" name="login" placeholder="usuario"><br>
 			<label>Senha</label><br>
 			<input type="password" name="senha" placeholder="******"><br>
-			<input type="submit" value="Logar"/>
+			<input type="submit" value="logar"/>
 		</form>
   </body>
 </html>

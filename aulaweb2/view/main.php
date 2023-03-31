@@ -9,8 +9,8 @@
   <body>
 		<h3>Sistema Academico</h3>
 		<?php
-				echo "Seja bem vindo usuário: " .$_SESSION['login'], 
-        "<a href='login.php'>Sair</a>";
+				echo "Seja bem vindo usuário: " .$_SESSION['login'], "<a href='login.php'>Sair</a>";
+        echo "<a href='UsuarioList.php'>Listar</a>";
 		?>
   </body>
 </html>
